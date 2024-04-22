@@ -1,0 +1,284 @@
+* {
+
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 500px;
+    margin-left: 420px;
+
+
+}
+
+p {
+    color: rgb(236, 236, 236);
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(11, 218, 45);
+    border: none;
+    font-size: 19px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: -0px;
+
+
+
+
+}
+
+.imagem-mario-luigi {
+    height: 500px;
+
+}
+
+body {
+
+    height: 100vh;
+
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 100px;
+    margin-top: 200px;
+
+
+
+}
+
+.caixa-principal {
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+
+
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+
+
+}
+
+.header img {
+    height: 90px;
+    border: 30px;
+
+}
+
+.header a {
+    color: rgb(212, 211, 211);
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.header a:hover {
+    color: rgb(11, 218, 45);
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: left 1s ease-in-out;
+
+
+
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: rgb(11, 218, 45);
+
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: rgb(11, 218, 45);
+
+}
+
+.button2 {
+    margin-top: 10px;
+    margin-left: 33px;
+    background-color: rgb(11, 218, 45);
+    display: flex;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    display: block;
+
+
+
+}
+
+button2:hover {
+
+    color: black;
+
+}
+
+.button2:hover {
+
+    color: rgb(239, 241, 241);
+}
+
+
+
+
+
+p:hover {
+    color: rgb(15, 238, 52);
+
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.link-whatsapp img:hover {
+    display: flex;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+.button-teste:hover {
+    color: white;
+
+}
+
+.mascara-formulario {
+    transition: visibility 1s ease-in-out;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99)85%);
+
+}
+
+@media(max-width:1100px) {
+    p {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+      
+
+    }
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+    }
+
+    .logo-mario {
+        width: 80vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+   
+
+    .imagem-mario-luigi {
+        width: 80vw;
+        height: auto;
+    }
+    
+    
+    .header {
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header a {
+        font-size: 20px;
+    }
+
+
+
+}
